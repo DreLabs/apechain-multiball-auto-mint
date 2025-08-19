@@ -1,0 +1,14 @@
+{
+  "name": "bronze-mint",
+  "version": "1.0.0",
+  "description": "Automated BronzeBall NFT minting script",
+  "type": "module",
+  "main": "mint.js",
+  "scripts": {
+    "start": "node mint.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "ethers": "^6.10.0"
+  }
+}
